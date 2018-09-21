@@ -15,8 +15,6 @@ public class AgeNameProgramTwo {
 		System.out.println("What is your weight?");
         System.out.println(weight);
 		weight=input.nextDouble();
-		
-
 	}
 
 }
