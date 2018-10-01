@@ -1,9 +1,16 @@
 package objectOrientedProgramming;
 
 public class defaultConstructor {
-public defaultConstructor()
+Greeter Bob;
+Friend John;
+Bob=sayHello;
+Bob=sayHello;
+Bob=sayHello;
+John=Message;
+Bob=sayHello;
+
 {
 	
 }
 
-}ssss
+}
