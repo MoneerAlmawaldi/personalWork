@@ -1,7 +1,7 @@
 package objectOrientedProgramming;
 
 public class Friends {
-public static final Object Message = null;
+
 public Friends(){
 
 
