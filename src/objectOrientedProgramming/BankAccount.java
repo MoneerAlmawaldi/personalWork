@@ -2,7 +2,7 @@ package objectOrientedProgramming;
 public class BankAccount {
 private double balance;
 private final double accountnum;
-private double interestrate;
+private final double interestrate;
 public BankAccount(){
 balance=345;
 accountnum=834529;
@@ -14,10 +14,9 @@ balance=newbalance;
 accountnum=newaccountnum;
 interestrate=newinterestrate;
 }
-public double setbalance(double newbalance)
+public void setbalance(double newbalance)
 {
 balance=newbalance;
-return balance;
 }
 public double getbalance()
 {
@@ -33,16 +32,25 @@ return accountnum;
 }
 public double setinterestrate(double newinterestrate)
 {
-interestrate=newinterestrate;
 return interestrate;
 }
 public double getinterestrate()
 {
 return interestrate;
 }
-{
-
-
-
+public double deposit(double addamount){
+	return balance+addamount;
+}
+public double withdraw(double subamount){
+return balance-subamount;
+}
+public double balancewinterest(){
+return balance-(balance*interestrate);
+}
+public double balancewfinancecharge(){
+return balance-20;
+}
+public double balancewinterestwfinancecharge(){
+return (balance-(balance*interestrate))-20;
 }
 }
