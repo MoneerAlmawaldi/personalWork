@@ -7,7 +7,7 @@ int average=0;
 Scanner input=new Scanner(System.in);
 System.out.println("Enter A Number. (999 To Quit)");
 number=input.nextInt();
-while(number!=999)sssssss
+while(number!=999)
 {
 average=number*8;
 System.out.println("Enter A Number. (999 To Quit)");
