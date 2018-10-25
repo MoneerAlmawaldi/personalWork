@@ -1,6 +1,7 @@
 package Loops;
 import java.util.Scanner;
 public class Activity6 {
+public static void main(String[]args){
 int number=0;
 int counter=0;
 int average=0;
@@ -15,4 +16,6 @@ counter++;
 number=input.nextInt();
 }
 System.out.println("The Average Of Numbers Entered Is: "+average);
+}
+}
 
